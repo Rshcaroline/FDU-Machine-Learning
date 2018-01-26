@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FDU-ML-Final-Project.iml" filepath="$PROJECT_DIR$/.idea/FDU-ML-Final-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Pytorch/.idea/Pytorch.iml" filepath="$PROJECT_DIR$/../Pytorch/.idea/Pytorch.iml" />
     </modules>
   </component>
 </project>
