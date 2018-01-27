@@ -9,11 +9,17 @@
 
 import os
 import tifffile as tif
+import numpy as np
+import skimage.io
 
 from tqdm import tqdm
 
 
 def tif2jpg():
+    """
+    This function helps transfer given tiff image into jpg image hence I can use ImageFolder.
+    :return: 
+    """
     IMG_PATH = './data/train/True'
     DIR_PATH = './data/train/True_jpg'
 
@@ -29,4 +35,20 @@ def tif2jpg():
         jpg_path = jpg_path.replace('TIF', 'jpg')
         tif.imsave(os.path.join(DIR_PATH, jpg_path), img)
 
-tif2jpg()
+def equal():
+    """
+    This function is aimed to find whether or not tif image == jpg image.
+    It only depends on the numeric expression of numpy.
+    :return: 
+    """
+    tif_PATH = './data/train/True/2.TIF'
+    jpg_PATH = './data/train/True_jpg/2.jpg'
+
+    img_tif = tif.imread(tif_PATH)
+    img_jpg = skimage.io.imread(jpg_PATH)
+
+    print np.equal(img_tif, img_jpg)
+
+
+if __name__ == '__main__':
+    tif2jpg()
