@@ -5,7 +5,7 @@ from torchvision import transforms, datasets
 import numpy as np
 import os
 
-os.chdir('../FDU-ML-Final-Project/data/')
+os.chdir('./data/')
 
 
 class Args:
