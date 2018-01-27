@@ -21,8 +21,8 @@ def tif2png():
     :return: 
     """
     folder = 'True'
-    IMG_PATH = os.path.join('./data/train/', folder)
-    DIR_PATH = os.path.join('./data/train/png', folder)
+    IMG_PATH = os.path.join('../data/train/', folder)
+    DIR_PATH = os.path.join('../data/train/png', folder)
 
     if not os.path.exists(DIR_PATH):
         os.mkdir(DIR_PATH)
@@ -44,8 +44,8 @@ def equal():
     It only depends on the numeric expression of numpy.
     :return: 
     """
-    tif_PATH = './data/train/False/27.tiff'
-    png_PATH = './data/train/png//False/27.png'
+    tif_PATH = './data/others/train/raw/False/27.tiff'
+    png_PATH = './data/others/train/png/False/27.png'
 
     img_tif = tif.imread(tif_PATH)
     img_png = io.imread(png_PATH)
