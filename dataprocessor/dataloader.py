@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : dataloader.py
 # @Software: PyCharm
-# @Description: This is the file which can split a large picture into small images.
+# @Description: This is the dataloader.
 
 import argparse
 import skimage.io as io
