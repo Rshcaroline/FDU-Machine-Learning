@@ -13,7 +13,7 @@ from torch import nn
 resnet = models.resnet152(pretrained=True)
 
 # resnet第一层卷积接收的通道是3
-resnet.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=7, stride=2, padding=3, bias=False)
+resnet.conv1 = nn.Conv2d(in_channels=4, out_channels=64, kernel_size=7, stride=2, padding=3, bias=False)
 
 # 原本为1000类，改为2类
 resnet.fc = nn.Linear(2048, 2)

@@ -3,37 +3,39 @@
 # @Time    : 2018/1/26 下午10:15
 # @Author  : Shihan Ran
 # @Site    : 
-# @File    : Split_Image.py
+# @File    : dataloader.py
 # @Software: PyCharm
 # @Description: This is the file which can split a large picture into small images.
 
-import os
-import tifffile as tif
 import argparse
+import skimage.io as io
 
-from tqdm import tqdm
 from torchvision.datasets import ImageFolder
 from torchvision import transforms
 from torch.utils.data import DataLoader
+from PIL import Image
 
-traindir = "./data/train"
+traindir = "./data/train/png"
 
-normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                 std=[0.229, 0.224, 0.225])
 
-# 用ImageFolder来读取dataset
+def my_loader(path):
+    return Image.open(path)
+
 train_dataset = ImageFolder(
         traindir,
         transforms.Compose([
-            transforms.RandomSizedCrop(224),
-            transforms.RandomHorizontalFlip(),
-            transforms.ToTensor(),
-            normalize,
-        ]))
+            transforms.CenterCrop(224),
+            transforms.ToTensor()
+        ]),
+        loader=my_loader
+)
 
-# DataLoader多线程读取
+# DataLoader multiprocessing
+# 0: shape = [num_of_items, channels, pixels, pixels]
+# 1: length = num_of_items, it records labels
 train_loader = DataLoader(
     train_dataset, batch_size=32, shuffle=True,
-    num_workers=5, pin_memory=True)
+    num_workers=8, pin_memory=True)
 
-print train_loader
+for i in train_loader:
+    print i
