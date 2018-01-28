@@ -56,22 +56,34 @@ dtype = torch.cuda.FloatTensor if use_cuda else torch.FloatTensor
 # desired size of the output image
 imsize = 512 if use_cuda else 128  # use small size if no gpu
 
-loader = transforms.Compose([
-    transforms.Resize(imsize),  # scale imported image
-    transforms.ToTensor()])  # transform it into a torch tensor
+loader = transforms.ToTensor()
+unloader = transforms.ToPILImage()  # reconvert into PIL image
+loader_resize = transforms.Compose([
+    transforms.Resize(imsize),
+    transforms.ToTensor(),
+])
 
 
-def image_loader(image_name):
-    image = Image.open(image_name)
-    image = Variable(loader(image))
+def image2Var(image):
+    # image = Image.open(image_name)
+    image = Variable(loader_resize(image))
     # fake batch dimension required to fit network's input dimensions
     image = image.unsqueeze(0)
     return image
 
 
-style_img = image_loader("images/picasso.jpg").type(dtype)
-content_img = image_loader("images/dancing.jpg").type(dtype)
+# make sure that the style image size is the same as that of content
+style_img = Image.open("./images/style6.png")  # .type(dtype)
+content_img = Image.open("./images/content1.jpg")  # .type(dtype)
+style_img = loader(style_img)
+style_img = style_img[:3, :1836, :3264]
+style_img = unloader(style_img)
 
+style_img = image2Var(style_img).type(dtype)
+content_img = image2Var(content_img).type(dtype)
+
+
+print(style_img.size(),content_img.size())
 assert style_img.size() == content_img.size(), \
     "we need to import style and content images of the same size"
 
@@ -92,14 +104,12 @@ assert style_img.size() == content_img.size(), \
 # reconvert them into PIL images:
 #
 
-unloader = transforms.ToPILImage()  # reconvert into PIL image
-
 plt.ion()
 
 
 def imshow(tensor, title=None):
     image = tensor.clone().cpu()  # we clone the tensor to not do changes on it
-    image = image.view(3, imsize, imsize)  # remove the fake batch dimension
+    image = image.view(3, image.size()[-2], image.size()[-1])  # remove the fake batch dimension
     image = unloader(image)
     # plt.imshow(image)
     plt.imsave(title, image, format='png')
