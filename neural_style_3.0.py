@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# python2.7
 
 from __future__ import print_function
 
@@ -7,7 +8,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.optim as optim
 
-from PIL import Image
+from PIL import Image, ImageFilter
 import matplotlib.pyplot as plt
 
 import torchvision.transforms as transforms
@@ -31,6 +32,7 @@ import copy
 # ``torch.cuda.FloatTensor`` to feed GPU processes.
 #
 
+torch.cuda.set_device(1)
 use_cuda = torch.cuda.is_available()
 dtype = torch.cuda.FloatTensor if use_cuda else torch.FloatTensor
 
@@ -56,7 +58,6 @@ dtype = torch.cuda.FloatTensor if use_cuda else torch.FloatTensor
 # desired size of the output image
 imsize = 512 if use_cuda else 128  # use small size if no gpu
 
-<<<<<<< HEAD
 loader = transforms.ToTensor()
 unloader = transforms.ToPILImage()  # reconvert into PIL image
 loader_resize = transforms.Compose([
@@ -68,39 +69,26 @@ loader_resize = transforms.Compose([
 def image2Var(image):
     # image = Image.open(image_name)
     image = Variable(loader_resize(image))
-=======
-loader = transforms.Compose([
-    transforms.Scale(imsize),  # scale imported image
-    transforms.ToTensor()])  # transform it into a torch tensor
-
-
-def image_loader(image_name):
-    image = Image.open(image_name)
-    image = Variable(loader(image))
->>>>>>> 8eb87db004720b8eb97764606066c619a7c223bd
     # fake batch dimension required to fit network's input dimensions
     image = image.unsqueeze(0)
     return image
 
 
-<<<<<<< HEAD
 # make sure that the style image size is the same as that of content
 style_img = Image.open("./images/style6.png")  # .type(dtype)
-content_img = Image.open("./images/content1.jpg")  # .type(dtype)
+content_img = Image.open("./images/content3.jpg")  # .type(dtype)
+contour_img = content_img.filter(ImageFilter.CONTOUR)
+
 style_img = loader(style_img)
-style_img = style_img[:3, :1836, :3264]
+style_img = style_img[:3, :1836, :3264]  # !note that the size of content image is always inverse
+# style_img = style_img[:3, :1080, :1440]
 style_img = unloader(style_img)
 
 style_img = image2Var(style_img).type(dtype)
 content_img = image2Var(content_img).type(dtype)
+contour_img = image2Var(contour_img).type(dtype)
 
-
-print(style_img.size(),content_img.size())
-=======
-style_img = image_loader("images/picasso.jpg").type(dtype)
-content_img = image_loader("images/dancing.jpg").type(dtype)
-
->>>>>>> 8eb87db004720b8eb97764606066c619a7c223bd
+print(style_img.size(), content_img.size(), contour_img.size())
 assert style_img.size() == content_img.size(), \
     "we need to import style and content images of the same size"
 
@@ -121,21 +109,12 @@ assert style_img.size() == content_img.size(), \
 # reconvert them into PIL images:
 #
 
-<<<<<<< HEAD
-=======
-unloader = transforms.ToPILImage()  # reconvert into PIL image
-
->>>>>>> 8eb87db004720b8eb97764606066c619a7c223bd
 plt.ion()
 
 
 def imshow(tensor, title=None):
     image = tensor.clone().cpu()  # we clone the tensor to not do changes on it
-<<<<<<< HEAD
     image = image.view(3, image.size()[-2], image.size()[-1])  # remove the fake batch dimension
-=======
-    image = image.view(3, imsize, imsize)  # remove the fake batch dimension
->>>>>>> 8eb87db004720b8eb97764606066c619a7c223bd
     image = unloader(image)
     # plt.imshow(image)
     plt.imsave(title, image, format='png')
@@ -403,7 +382,8 @@ def get_style_model_and_losses(cnn, style_img, content_img,
 # noise, or it can also be a copy of the content-image.
 #
 
-input_img = content_img.clone()
+# input_img = content_img
+input_img = contour_img
 # if you want to use a white noise instead uncomment the below line:
 # input_img = Variable(torch.randn(content_img.data.size())).type(dtype)
 
@@ -461,6 +441,7 @@ def run_style_transfer(cnn, content_img, style_img, input_img, num_steps=300,
     print('Building the style transfer model..')
     model, style_losses, content_losses = get_style_model_and_losses(cnn,
         style_img, content_img, style_weight, content_weight)
+
     input_param, optimizer = get_input_param_optimizer(input_img)
 
     print('Optimizing..')
@@ -496,20 +477,15 @@ def run_style_transfer(cnn, content_img, style_img, input_img, num_steps=300,
     input_param.data.clamp_(0, 1)
 
     return input_param.data
-
 ######################################################################
 # Finally, run the algorithm
 
 
-output = run_style_transfer(cnn, content_img, style_img, input_img)
+output = run_style_transfer(cnn, contour_img, style_img, input_img)
 
 plt.figure()
 imshow(output, title='Output Image')
 
 # sphinx_gallery_thumbnail_number = 4
 plt.ioff()
-<<<<<<< HEAD
 # plt.show()
-=======
-plt.show()
->>>>>>> 8eb87db004720b8eb97764606066c619a7c223bd
