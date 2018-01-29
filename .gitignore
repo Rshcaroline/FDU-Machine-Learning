@@ -1,6 +1,7 @@
 .*
 data/
 *.pyc
+styleTransfer/images/
 <<<<<<< HEAD
 images/
 =======
