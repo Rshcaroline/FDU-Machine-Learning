@@ -13,29 +13,44 @@ import os
 import skimage.io as io
 from tqdm import tqdm
 
-IMG_SIZE = 227
 
-FOLDER = "False"
-IMG_PATH = "../data/train/png"
-OUT_PATH = os.path.join("../data/train/", FOLDER)
+def split_pic(IMG_SIZE= 227, FOLDER="False"):
 
-if not os.path.exists(OUT_PATH):
-    os.mkdir(OUT_PATH)
+    IMG_PATH = "../data/train_raw/png"
 
-paths = os.listdir(os.path.join(IMG_PATH, FOLDER))
+    # train_600
+    OUT_FOLDER = "../data/train_" + str(IMG_SIZE)
 
-for path in tqdm(paths):
-    count = 0
+    if not os.path.exists(OUT_FOLDER):
+        os.mkdir(OUT_FOLDER)
 
-    folder_path = os.path.join(IMG_PATH, FOLDER)
-    img = io.imread(os.path.join(folder_path, path))
+    # train_600/False
+    OUT_PATH = os.path.join(OUT_FOLDER, FOLDER)
 
-    height, width = img.shape[:2]
-    # overlap
-    for i in range(IMG_SIZE, height, int(0.8 * IMG_SIZE)):
-        for j in range(IMG_SIZE, width, int(0.8 * IMG_SIZE)):
-            f = path.replace('.jpg', '_%d.jpg' % count)
-            f = f.replace('.png', '_%d.png' % count)
-            io.imsave(os.path.join(OUT_PATH, f),
-                      img[i-IMG_SIZE:i, j-IMG_SIZE:j])
-            count += 1
+    if not os.path.exists(OUT_PATH):
+        os.mkdir(OUT_PATH)
+
+    paths = os.listdir(os.path.join(IMG_PATH, FOLDER))
+
+    for path in tqdm(paths):
+        count = 0
+
+        folder_path = os.path.join(IMG_PATH, FOLDER)
+        img = io.imread(os.path.join(folder_path, path))
+
+        height, width = img.shape[:2]
+        # overlap 0.2
+        # without 100
+        for i in range(IMG_SIZE + 100, height - 100, int(0.8 * IMG_SIZE)):
+            for j in range(IMG_SIZE + 100, width - 100, int(0.8 * IMG_SIZE)):
+                f = path.replace('.jpg', '_%d.jpg' % count)
+                f = f.replace('.png', '_%d.png' % count)
+                io.imsave(os.path.join(OUT_PATH, f),
+                          img[i-IMG_SIZE:i, j-IMG_SIZE:j])
+                count += 1
+
+
+if __name__ == '__main__':
+    IMG_SIZE = 1000
+    split_pic(IMG_SIZE, FOLDER="False")
+    split_pic(IMG_SIZE, FOLDER="True")

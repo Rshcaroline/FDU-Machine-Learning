@@ -15,7 +15,7 @@ from torchvision import transforms
 from torch.utils.data import DataLoader
 from PIL import Image
 
-traindir = "./data/train/png"
+traindir = "./data/train/"
 
 
 def my_loader(path):
@@ -34,7 +34,7 @@ train_dataset = ImageFolder(
 # 0: shape = [num_of_items, channels, pixels, pixels]
 # 1: length = num_of_items, it records labels
 train_loader = DataLoader(
-    train_dataset, batch_size=32, shuffle=True,
+    train_dataset, batch_size=32, shuffle=False,
     num_workers=8, pin_memory=True)
 
 for i in train_loader:
