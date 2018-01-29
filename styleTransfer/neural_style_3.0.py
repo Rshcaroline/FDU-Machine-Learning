@@ -76,12 +76,12 @@ def image2Var(image):
 
 # make sure that the style image size is the same as that of content
 style_img = Image.open("./images/style6.png")  # .type(dtype)
-content_img = Image.open("./images/content3.jpg")  # .type(dtype)
+content_img = Image.open("./images/content1.jpg")  # .type(dtype)
 contour_img = content_img.filter(ImageFilter.CONTOUR)
 
 style_img = loader(style_img)
 style_img = style_img[:3, :1836, :3264]  # !note that the size of content image is always inverse
-# style_img = style_img[:3, :1080, :1440]
+# style_img = style_img[:3, :1440, :1080]
 style_img = unloader(style_img)
 
 style_img = image2Var(style_img).type(dtype)
