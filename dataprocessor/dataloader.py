@@ -7,9 +7,6 @@
 # @Software: PyCharm
 # @Description: This is the dataloader.
 
-import argparse
-import skimage.io as io
-
 from torchvision.datasets import ImageFolder
 from torchvision import transforms
 from torch.utils.data import DataLoader
