@@ -32,7 +32,7 @@ import copy
 # ``torch.cuda.FloatTensor`` to feed GPU processes.
 #
 
-torch.cuda.set_device(1)
+torch.cuda.set_device(0)
 use_cuda = torch.cuda.is_available()
 dtype = torch.cuda.FloatTensor if use_cuda else torch.FloatTensor
 
@@ -74,26 +74,6 @@ def image2Var(image):
     return image
 
 
-# make sure that the style image size is the same as that of content
-style_img = Image.open("./images/style18.jpg")  # .type(dtype)
-content_img = Image.open("./images/DSC03337.jpg")  # .type(dtype)
-contour_img = content_img.filter(ImageFilter.CONTOUR)
-
-style_img = loader(style_img)
-# !note that the size of content image is always inverse
-style_img = style_img[:3, :loader(content_img).size()[1], :loader(content_img).size()[2]]
-# style_img = style_img[:3, :1440, :1080]
-style_img = unloader(style_img)
-
-style_img = image2Var(style_img).type(dtype)
-content_img = image2Var(content_img).type(dtype)
-contour_img = image2Var(contour_img).type(dtype)
-
-print(style_img.size(), content_img.size(), contour_img.size())
-assert style_img.size() == content_img.size(), \
-    "we need to import style and content images of the same size"
-
-
 ######################################################################
 # Imported PIL images has values between 0 and 255. Transformed into torch
 # tensors, their values are between 0 and 1. This is an important detail:
@@ -110,10 +90,10 @@ assert style_img.size() == content_img.size(), \
 # reconvert them into PIL images:
 #
 
-plt.ion()
+# plt.ion()
 
 
-def imshow(tensor, title=None):
+def imsave(tensor, title=None):
     image = tensor.clone().cpu()  # we clone the tensor to not do changes on it
     image = image.view(3, image.size()[-2], image.size()[-1])  # remove the fake batch dimension
     image = unloader(image)
@@ -384,13 +364,12 @@ def get_style_model_and_losses(cnn, style_img, content_img,
 #
 
 # input_img = content_img
-input_img = contour_img
+
 # if you want to use a white noise instead uncomment the below line:
 # input_img = Variable(torch.randn(content_img.data.size())).type(dtype)
 
 # add the original input image to the figure:
-plt.figure()
-imshow(input_img.data, title='Input Image')
+# plt.figure()
 
 
 ######################################################################
@@ -437,7 +416,7 @@ def get_input_param_optimizer(input_img):
 #
 
 def run_style_transfer(cnn, content_img, style_img, input_img, num_steps=300,
-                       style_weight=1000, content_weight=1):
+                       style_weight=1000, content_weight=5):
     """Run the style transfer."""
     print('Building the style transfer model..')
     model, style_losses, content_losses = get_style_model_and_losses(cnn,
@@ -481,12 +460,97 @@ def run_style_transfer(cnn, content_img, style_img, input_img, num_steps=300,
 ######################################################################
 # Finally, run the algorithm
 
-
-output = run_style_transfer(cnn, contour_img, style_img, input_img)
-
-plt.figure()
-imshow(output, title='Output Image')
-
 # sphinx_gallery_thumbnail_number = 4
-plt.ioff()
+# plt.ioff()
 # plt.show()
+
+
+def trick_content_img(trick, content_img):
+    if trick == 1:
+        # use the contour image to remove the colors in content img
+        content_img = content_img.filter(ImageFilter.CONTOUR)
+    elif trick == 2:
+        # try the detailed contour image
+        detailed_contour_img = content_img.filter(ImageFilter.DETAIL)
+        content_img = detailed_contour_img.filter(ImageFilter.CONTOUR)
+    elif trick == 3:
+        # try the edge enhanced contour image
+        edge_enhanced_contour_img = content_img.filter(ImageFilter.EDGE_ENHANCE)
+        content_img = edge_enhanced_contour_img.filter(ImageFilter.CONTOUR)
+    elif trick == 4:
+        # try the edge enhanced more contour image
+        edge_enhanced_more_contour_img = content_img.filter(ImageFilter.EDGE_ENHANCE_MORE)
+        content_img = edge_enhanced_more_contour_img.filter(ImageFilter.CONTOUR)
+    elif trick == 5:
+        # try the edge enhanced more contour image
+        content_img = content_img.convert('L')
+
+    content_img = image2Var(content_img).type(dtype)
+
+    return content_img
+
+
+def style_transfer(style_num, content_num, trick, num_steps, style_file='png', content_file='jpg'):
+    # make sure that the style image size is the same as that of content
+    style_img = Image.open("./images/style{}.{}".format(style_num, style_file))
+    content_img = Image.open("./images/content{}.{}".format(content_num, content_file))
+
+    trick_img = trick_content_img(tricks[trick], content_img)
+
+    style_img = loader(style_img)
+    # !note that the size of content image is always inverse
+    style_img = style_img[:3, :loader(content_img).size()[1], :loader(content_img).size()[2]]
+    # style_img = style_img[:3, :1440, :1080]
+    style_img = unloader(style_img)
+
+    style_img = image2Var(style_img).type(dtype)
+    content_img = image2Var(content_img).type(dtype)
+
+    print(style_img.size(),
+          content_img.size(),
+          trick_img.size(),
+          )
+    assert style_img.size() == content_img.size(), \
+        "we need to import style and content images of the same size"
+
+    input_img = trick_img  # this can either be the content img or style img or even a white noise
+    imsave(input_img.data, title='Input Image')
+
+    output = run_style_transfer(cnn,
+                                content_img=trick_img,
+                                style_img=style_img,
+                                input_img=trick_img,  # for initialization
+                                num_steps=num_steps,
+                                )
+    imsave(output, title='{}_plus_{}_{}'.format(style_num, content_num, trick))
+
+    # recurrent learning
+    # output = Variable(output)
+    # output2 = run_style_transfer(cnn,
+    #                              content_img=content_img,
+    #                              style_img=style_img,
+    #                              input_img=output,
+    #                              num_steps=100)
+    # imshow(output2, title='Output2 Image')
+
+    #
+
+    # plt.figure()
+
+
+tricks = {
+    'none': 0,
+    'contour': 1,
+    'd_contour': 2,  # detailed contour
+    'ee_contour': 3,  # edge enhanced contour
+    'eem_contour': 4,  # edge enhanced more contour
+    'grey_scale': 5,  # grey scale image
+}
+# final API
+style_transfer(style_num=6,
+               content_num=7,
+               trick='grey_scale',
+               num_steps=300,
+               style_file='png',
+               content_file='jpg',
+               )
