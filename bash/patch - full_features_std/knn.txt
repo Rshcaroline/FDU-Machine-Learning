@@ -1,0 +1,100 @@
+Namespace(n=1, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=2, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=3, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=4, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=5, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=6, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=7, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=8, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=9, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=10, p=1)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=1, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=2, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=3, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=4, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=5, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=6, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=7, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=8, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=9, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+
+Namespace(n=10, p=2)
+Final Accuracy: 0.905 [19/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.889 [8/9] 
+

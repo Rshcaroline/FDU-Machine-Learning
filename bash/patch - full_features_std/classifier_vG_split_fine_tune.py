@@ -10,7 +10,7 @@ from sklearn.model_selection import LeaveOneOut
 from sklearn.preprocessing import scale
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.externals.six import StringIO
-import pydot
+# import pydotplus
 
 import torch
 from torch.autograd import Variable
@@ -22,8 +22,8 @@ import argparse
 parser = argparse.ArgumentParser()
 
 # fine_tune for KNN
-# parser.add_argument('--p', type=int, default=2, help="Choose p value")
-# parser.add_argument('--n', type=int, default=5, help="Choose n_neighbors")
+parser.add_argument('--p', type=int, default=2, help="Choose p value")
+parser.add_argument('--n', type=int, default=5, help="Choose n_neighbors")
 
 # fine_tune for SVM
 # parser.add_argument('--c', type=float, default=1, help="Choose penalty parameter C of the error term.")
@@ -31,17 +31,17 @@ parser = argparse.ArgumentParser()
 # parser.add_argument('--d', type=int, default=3, help="Degree of the polynomial kernel function ('poly').")
 
 # fine_tune for DT
-parser.add_argument('--l', type=int, default=2, help="The maximum depth of the tree.")
-parser.add_argument('--n', type=int, default=5, help="Grow a tree with ``max_leaf_nodes`` in best-first fashion.")
+# parser.add_argument('--l', type=int, default=2, help="The maximum depth of the tree.")
+# parser.add_argument('--n', type=int, default=5, help="Grow a tree with ``max_leaf_nodes`` in best-first fashion.")
 
 args = parser.parse_args()
 
 data_dir = "../anthentication/data"
 
-X = np.load(os.path.join(data_dir, "full_features.npy"))
+X = np.load(os.path.join(data_dir, "full_features_std.npy"))
 y = np.load(os.path.join(data_dir, "full_labels.npy"))
 
-X_split = np.load(os.path.join(data_dir, "patch_features.npy"))
+X_split = np.load(os.path.join(data_dir, "patch_features_std.npy"))
 y_split = np.load(os.path.join(data_dir, "patch_labels.npy"))
 
 total = y.shape[0]
@@ -76,10 +76,11 @@ for train_index, test_index in loo.split(X):
     y_train = np.reshape(y_train, [-1])
 
     # ----Traditional---
-    # clf = KNeighborsClassifier(n_neighbors=args.n, weights="uniform", p=args.p)
+    clf = KNeighborsClassifier(n_neighbors=args.n, weights="uniform", p=args.p)
     # clf = svm.SVC(C=args.c, kernel=args.k, degree=args.d)
-    clf = DecisionTreeClassifier()
+    # clf = DecisionTreeClassifier()
     clf.fit(X_train, y_train)
+    judgement = (clf.predict(X_test) == y_test)
 
     # plot the decision tree
 
@@ -98,10 +99,8 @@ for train_index, test_index in loo.split(X):
     #                      class_names=target_names,
     #                      filled=True, rounded=True,
     #                      impurity=False)
-    # graph = pydot.graph_from_dot_data(dot_data.getvalue())
+    # graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
     # graph.write_pdf("dt.pdf")
-
-    judgement = (clf.predict(X_test) == y_test)
 
     # ----Neural Network---
     # net = Net()

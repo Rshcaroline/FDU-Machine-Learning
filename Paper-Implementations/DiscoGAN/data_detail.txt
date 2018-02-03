@@ -1,0 +1,15 @@
+raw_data
+
+----------------------------
+our_data_600:
+pixel: 600*600
+A/B: 673 pics
+A: style pics
+B: 4 * content pics
+
+----------------------------
+our_data_1000:
+pixel: 1000*1000
+A/B: 210 pics
+A: style pics
+B: 4 * content pics

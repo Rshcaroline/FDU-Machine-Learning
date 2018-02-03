@@ -1,0 +1,95 @@
+Namespace(l=2, n=5)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=2, n=2)
+Final Accuracy: 0.810 [17/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.778 [7/9] 
+
+Namespace(l=2, n=3)
+Final Accuracy: 0.762 [16/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.778 [7/9] 
+
+Namespace(l=2, n=4)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=2, n=5)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=2, n=6)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=2, n=7)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=2, n=8)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=2, n=9)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=2, n=10)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=2)
+Final Accuracy: 0.762 [16/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=3)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=4)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=3, n=5)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=6)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=7)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=3, n=8)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+
+Namespace(l=3, n=9)
+Final Accuracy: 0.714 [15/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.667 [6/9] 
+
+Namespace(l=3, n=10)
+Final Accuracy: 0.667 [14/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.556 [5/9] 
+

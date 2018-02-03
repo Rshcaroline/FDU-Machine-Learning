@@ -27,7 +27,7 @@ train_dataset = ImageFolder(
         loader=my_loader
 )
 
-# DataLoader multiprocessing
+# DataLoader mnultiprocessing
 # 0: shape = [num_of_items, channels, pixels, pixels]
 # 1: length = num_of_items, it records labels
 train_loader = DataLoader(

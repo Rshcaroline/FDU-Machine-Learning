@@ -1,0 +1,2000 @@
+Namespace(c=0.1, d=1, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=2, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=3, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=4, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=5, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=6, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=7, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=8, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=9, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=10, k='linear')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=1, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=2, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=3, k='poly')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=4, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=6, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=7, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.1, d=8, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.1, d=10, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=1, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=2, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=3, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=4, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=5, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=6, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=7, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=8, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=9, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=10, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=1, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=2, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=3, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=4, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=5, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=6, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=7, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=8, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=9, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.1, d=10, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=1, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=2, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=3, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=4, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=5, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=6, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=7, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=8, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=9, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=10, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=1, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=2, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=4, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.2, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.2, d=10, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=1, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=2, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=3, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=4, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=5, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=6, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=7, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=8, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=9, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=10, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=1, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=2, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=3, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=4, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=5, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=6, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=7, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=8, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=9, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.2, d=10, k='sigmoid')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=1, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=2, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=3, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=4, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=5, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=6, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=7, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=8, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=9, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=10, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=1, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=2, k='poly')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=4, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=5, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.3, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.3, d=8, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.3, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=1, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=2, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=3, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=4, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=5, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=6, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=7, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=8, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=9, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=10, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=1, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=2, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=3, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=4, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=5, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=6, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=7, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=8, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=9, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.3, d=10, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=1, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=2, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=3, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=4, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=5, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=6, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=7, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=8, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=9, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=10, k='linear')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=1, k='poly')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=2, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=4, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=5, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.4, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.4, d=8, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.4, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=1, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=2, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=3, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=4, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=5, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=6, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=7, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=8, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=9, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=10, k='rbf')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=1, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=2, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=3, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=4, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=5, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=6, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=7, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=8, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=9, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.4, d=10, k='sigmoid')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=1, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=2, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=3, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=4, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=5, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=6, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=7, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=8, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=9, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=10, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=1, k='poly')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=2, k='poly')
+Final Accuracy: 0.333 [7/21] 
+True Positive: 0.583 [7/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=4, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=5, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.5, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.5, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.5, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=1, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=2, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=3, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=4, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=5, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=6, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=7, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=8, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=9, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=10, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.5, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=1, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=2, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=3, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=4, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=5, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=6, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=7, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=8, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=9, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=10, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=1, k='poly')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=2, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=4, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.6, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.6, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.6, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=1, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=2, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=3, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=4, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=5, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=6, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=7, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=8, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=9, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=10, k='rbf')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.6, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=1, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=2, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=3, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=4, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=5, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=6, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=7, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=8, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=9, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=10, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=1, k='poly')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=2, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=4, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.7, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.7, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.7, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=1, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=2, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=3, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=4, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=5, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=6, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=7, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=8, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=9, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=10, k='rbf')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.7, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=1, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=2, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=3, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=4, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=5, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=6, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=7, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=8, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=9, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=10, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.833 [10/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=1, k='poly')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=2, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=3, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=4, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=9, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.8, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=1, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=2, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=3, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=4, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=5, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=6, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=7, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=8, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=9, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=10, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.8, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=1, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=2, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=3, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=4, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=5, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=6, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=7, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=8, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=9, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=10, k='linear')
+Final Accuracy: 0.476 [10/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=1, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=2, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=3, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=4, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=0.9, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=9, k='poly')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=1, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=2, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=3, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=4, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=5, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=6, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=7, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=8, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=9, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=10, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=0.9, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=1, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=2, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=3, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=4, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=5, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=6, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=7, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=8, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=9, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=10, k='linear')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.222 [2/9] 
+
+Namespace(c=1.0, d=1, k='poly')
+Final Accuracy: 0.429 [9/21] 
+True Positive: 0.750 [9/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=2, k='poly')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=3, k='poly')
+Final Accuracy: 0.619 [13/21] 
+True Positive: 1.000 [12/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=1.0, d=4, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=5, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=1.0, d=6, k='poly')
+Final Accuracy: 0.238 [5/21] 
+True Positive: 0.417 [5/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=7, k='poly')
+Final Accuracy: 0.571 [12/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.111 [1/9] 
+
+Namespace(c=1.0, d=8, k='poly')
+Final Accuracy: 0.190 [4/21] 
+True Positive: 0.333 [4/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=9, k='poly')
+Final Accuracy: 0.524 [11/21] 
+True Positive: 0.917 [11/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=10, k='poly')
+Final Accuracy: 0.143 [3/21] 
+True Positive: 0.250 [3/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=1, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=2, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=3, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=4, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=5, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=6, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=7, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=8, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=9, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=10, k='rbf')
+Final Accuracy: 0.286 [6/21] 
+True Positive: 0.500 [6/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=1, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=2, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=3, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=4, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=5, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=6, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=7, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=8, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=9, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
+Namespace(c=1.0, d=10, k='sigmoid')
+Final Accuracy: 0.381 [8/21] 
+True Positive: 0.667 [8/12] 
+True Negative: 0.000 [0/9] 
+
