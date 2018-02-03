@@ -2,6 +2,8 @@
 data/
 *.pyc
 styleTransfer/images/
+styleTransfer/results/
+authentication/features/
 authentication/data/
 <<<<<<< HEAD
 images/
