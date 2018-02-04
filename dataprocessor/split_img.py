@@ -21,7 +21,7 @@ def split_pic(IMG_SIZE= 227):
 
     # train_600
     # OUT_PATH = "../data/images_" + str(IMG_SIZE)
-    OUT_PATH = "../Paper-Implementations/DiscoGAN/our_data/B"
+    OUT_PATH = "../Paper-Implementations/DiscoGAN/data/our_data_227/B"
 
     if not os.path.exists(OUT_PATH):
         os.mkdir(OUT_PATH)
@@ -56,4 +56,4 @@ def split_pic(IMG_SIZE= 227):
 
 if __name__ == '__main__':
     # IMG_SIZE = 1000
-    split_pic(IMG_SIZE=600)
+    split_pic(IMG_SIZE=100)
