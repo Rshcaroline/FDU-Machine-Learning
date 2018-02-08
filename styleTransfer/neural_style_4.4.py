@@ -585,6 +585,7 @@ tricks = {
     'find_edge': 8,  # ImageFilter.FIND_EDGES为寻找边缘信息的滤波
     'sharpen': 9,  # ImageFilter.SHARPEN为锐化滤波，补偿图像的轮廓，增强图像的边缘及灰度跳变的部分，使图像变得清晰
     'smooth': 10,  # ImageFilter.SMOOTH为平滑滤波，突出图像的宽大区域、低频成分，改善图像质量
+    'threshold': 11,  # 通过color enhancement来增强轮廓
 }
 # final API
 style_transfer(style_file='style6.png',
